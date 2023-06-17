@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="endGamePanel" class="endGamePanelHide">
+            <span id="endGameComunicat"></span>
+            <span id="correctNumber">Poprawna liczba to: </span>
+            <strong>Wynik: </strong>
+            <strong>Najlepszy Wynik: </strong>
+            <span>Poziom: </span>
+        </div>
+        <div id="content" class="show">
+            <div id="info">
+                <span id="level"> Poziom: </span>
+                <span>Czas: </span>
+            </div>
+            <div id="game">
+                <div id="numberDiv">
+                Liczba do zapamiętania: 
+    </div>
+        <div id="informationDiv">
+            <span id="infoGame" class="deafult">Dobra Odpowiedź!</span> <span id="status"></span>
+        </div>
+       <div id="answerDiv">
+        <label for="answer">Odpowiedź: </label>
+        <input type="number" id="answer">
+</div>
+    </div>
+
+        </div>
+    </div>
+
+    <script src="rd/app.js"></script>
+</body>
+</html>
